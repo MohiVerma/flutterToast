@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // region ShowToast
   void showToast(){
     Fluttertoast.showToast(
-      msg: "This is toast",
+      msg: "This is fluttertoast",
       toastLength: Toast.LENGTH_LONG,
       gravity: ToastGravity.BOTTOM,
       backgroundColor: Colors.red,
